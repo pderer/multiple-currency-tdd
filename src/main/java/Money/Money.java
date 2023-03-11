@@ -5,6 +5,8 @@ abstract class Money {
 
     abstract Money times(int multiplier);
 
+    abstract String currency();
+
     static Money dollar(int amount) {
         return new Dollar(amount);
     }
