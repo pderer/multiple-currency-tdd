@@ -1,0 +1,4 @@
+package Money;
+
+interface Expression {
+}
